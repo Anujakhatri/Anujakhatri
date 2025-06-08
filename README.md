@@ -1,6 +1,4 @@
-- 👋 Hi, I’m @Anujakhatri
-- 👀 I’m interested in Data Engineering...
-- 🌱 I’m currently doing Machine Learning Project...
+Here are the basis info related to machine project for begineers.
 
 <!---
 Anujakhatri/Anujakhatri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
