@@ -1,4 +1,4 @@
-Here are the basis info related to machine project for begineers.
+Hi i am Anuja Khatri.
 
 <!---
 Anujakhatri/Anujakhatri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
