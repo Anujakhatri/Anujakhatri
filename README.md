@@ -1,4 +1,4 @@
-Hi i am Anuja Khatri.
+Aspiring Data engineer!
 
 <!---
 Anujakhatri/Anujakhatri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
