@@ -1,4 +1,4 @@
-Aspiring Data engineer!
+Aspiring Data Analyst!
 
 Currently learning on Machine Learning and Data science..
 
