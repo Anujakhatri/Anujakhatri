@@ -1,6 +1,6 @@
 Aspiring Data Analyst!
 
-Currently learning on Machine Learning and Data science..
+Currently learning on Machine Learning and LLM..
 
 
 <!---
