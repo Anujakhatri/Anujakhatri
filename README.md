@@ -1,6 +1,6 @@
 Aspiring Data Engineer!
 
-Currently I am learning on Machine Learning, Python libreries and LLM..
+Currently I am learning on Machine Learning, Python library and LLM..
 
 
 <!---
