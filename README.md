@@ -1,6 +1,13 @@
-Aspiring Data Engineer!
+🌟 Aspiring Data Engineer
+Currently diving into:
 
-Currently I am learning on Machine Learning, Python library and LLM..
+🔍 Machine Learning
+
+🐍 Python Libraries (Pandas, NumPy, Matplotlib, etc.)
+
+🤖 Large Language Models (LLMs) and AI tools
+
+I'm passionate about building data-driven solutions and continuously leveling up my skills through hands-on projects and learning challenges.
 
 
 <!---
