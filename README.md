@@ -7,7 +7,7 @@ Currently diving into:
 
 🤖 Large Language Models (LLMs) and AI tools
 
-I'm passionate about building data-driven solutions and continuously leveling up my skills through hands-on projects and learning challenges.
+I'm passionate about building data driven solutions and continuously leveling up my skills through hands-on projects and learning challenges.
 
 
 <!---
