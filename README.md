@@ -1,4 +1,4 @@
-🌟 Aspiring Data Engineer
+🌟Aspiring Data Engineer
 Currently diving into:
 
 🔍 Machine Learning
