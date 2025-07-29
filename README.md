@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Cursor AI and AI automation**
 
-- 💬 Ask me about **Python, Flask, Django**
+- 💬 Ask me about **Python, Flask, Django, ML**
 
 - 📫 How to reach me **khatrianuja20@gmail.com**
 
