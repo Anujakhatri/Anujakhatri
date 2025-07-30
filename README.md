@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **AI and their tools**
 
-- 🌱 I’m currently learning **Cursor AI and AI automation**
+- 🌱 I’m currently learning **Cursor AI, AI automation**
 
 - 💬 Ask me about **Python, Flask, Django, ML**
 
