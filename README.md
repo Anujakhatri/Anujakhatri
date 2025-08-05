@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Anuja khatri</h1>
+<h1 align="center">Hi 👋, I'm Anuja khatri </h1>
 <h3 align="center">A passionate Software developer | Exploring ML, LLMs & AI |  From Nepal </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat" alt="anujakhatri" /> </p>
