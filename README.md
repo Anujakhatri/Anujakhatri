@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/anujakc7" target="blank"><img src="https://img.shields.io/twitter/follow/anujakc7?logo=twitter&style=for-the-badge" alt="anujakc7" /></a> </p>
 
-- 🔭 I’m currently working on **AI and their tools**
+- 🔭 I’m currently working on **AI and their tools **
 
 - 🌱 I’m currently learning **Cursor AI and AI automation**
 
