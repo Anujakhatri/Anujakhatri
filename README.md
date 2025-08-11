@@ -1,17 +1,17 @@
-<h1 align="center">Hi 👋, I'm Anuja khatri</h1>
-<h3 align="center">A passionate Software developer| Exploring ML,LLMs & AI| From Nepal</h3>
+<h1 align="center">Hi 👋, I'm Anuja khatri </h1>
+<h3 align="center">A passionate Software developer| Exploring on backend Development | From Nepal</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat" alt="anujakhatri" /> </p>
 
 <p align="left"> <a href="https://twitter.com/anujakc7" target="blank"><img src="https://img.shields.io/twitter/follow/anujakc7?logo=twitter&style=for-the-badge" alt="anujakc7" /></a> </p>
 
-- 🔭 I’m currently working on **AI and their tools**
+- 🔭 I’m currently working on **Node Js and Express**
 
-- 🌱 I’m currently learning **Cursor AI and AI automation**
+- 🌱 I’m currently learning **Javascript and their libraries and frameworks **
 
 - 📝 I regularly write articles on [https://medium.com/@anuja-kc](https://medium.com/@anuja-kc)
 
-- 💬 Ask me about **Python, Flask, Django, Machine Learning**
+- 💬 Ask me about **Python, Flask, Nodejs, Express **
 
 - 📫 How to reach me **khatrianuja20@gmail.com**
 
