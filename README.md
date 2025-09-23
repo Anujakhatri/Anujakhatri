@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://twitter.com/anujakc7" target="blank"><img src="https://img.shields.io/twitter/follow/anujakc7?logo=twitter&style=for-the-badge" alt="anujakc7" /></a> </p>
 
-- 🔭 I’m currently working on **Node Js and Express**
+- 🔭 I’m currently working on **ML and Python libraries**
 
-- 🌱 I’m currently learning **Javascript and their libraries and frameworks **
+- 🌱 I’m currently learning **Python, ML and their libraries and frameworks **
 
 - 📝 I regularly write articles on [https://medium.com/@anuja-kc](https://medium.com/@anuja-kc)
 
-- 💬 Ask me about **Python, Flask, Nodejs, Express **
+- 💬 Ask me about **Python, Machine Learning, Flask, Nodejs, Express **
 
 - 📫 How to reach me **khatrianuja20@gmail.com**
 
