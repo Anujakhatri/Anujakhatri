@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Anuja khatri </h1>
-<h3 align="center">A passionate Software developer| Exploring on backend Development | From Nepal</h3>
+<h3 align="center">A passionate Data Engineer| Exploring on Machine Learning | From Nepal</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat" alt="anujakhatri" /> </p>
 
