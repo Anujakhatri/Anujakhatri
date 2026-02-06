@@ -11,7 +11,7 @@
 # 💻 Tech Stack:
 <table align="center" width="100%"><tr>
  <!-- Frontend -->
- <td valign="top" width="33%">
+ <td valign="top">
   <h3 align="center" > Frontend </h3> 
 <div align="center">  
 <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>   
@@ -27,7 +27,7 @@
 
 
 <!-- Backend -->
-<td valign="top" width="34%">
+<td valign="top">
 <h3 align="center">Backend &amp; Tools</h3>
 <div align="center">   
 <a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
@@ -45,7 +45,7 @@
 
 
  <!-- DevOps -->
-<td valign="top" width="33%">
+<td valign="top">
   <h3 align="center">DevOps</h3>
 <div align="center">   
 <a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="45" /></a>   
