@@ -5,9 +5,10 @@
 
 - 📫 How to reach me **khatrianuja20@gmail.com**
 - Personal Portfolio: https://anujakhatri.github.io/
+- Love Reading? : https://medium.com/@anuja-kc
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/anuuu_01) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/anuja.kc_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/anuja-khatri/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@anuja-kc) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/anujakc7) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khatrianuja20@gmail.com) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/anuuu_01) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/anuja.kc_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/anuja-khatri/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/https://medium.com/@anuja-kc) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/anujakc7) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khatrianuja20@gmail.com) 
 
 # 💻 Tech Stack:
 <table align="center" width="100%"><tr>
