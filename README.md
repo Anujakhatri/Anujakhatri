@@ -4,8 +4,9 @@
   
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+%F0%9F%9A%80;Backend+Systems+Explorer+%F0%9F%94%AC;AI-Powered+App+Builder+%F0%9F%A4%96;Lifelong+Learner+%F0%9F%93%9A;Building+Reliable+Software+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB;Backend+Systems+Explorer+%F0%9F%94%AC;AI-Powered+App+Builder+%F0%9F%A4%96;Lifelong+Learner+%F0%9F%93%9A;Building+Reliable+Software+%E2%9C%A8" alt="Typing SVG" />
 </a>
+
 <br/>
 <!-- Profile Views Badge <p align="left"> img </p> -->
 <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -33,9 +34,7 @@ me.say_hi()
  
 ---
 
-- 📫 How to reach me **khatrianuja20@gmail.com**
 - Personal Portfolio: https://anujakhatri.github.io/
-- Love Reading? : https://medium.com/@anuja-kc
 
 ## 🌐 Connect With Me
 <p align="center">
@@ -68,7 +67,7 @@ me.say_hi()
 
 <div align="center">
  
-### 🎨 Frontend
+### Frontend
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -77,7 +76,7 @@ me.say_hi()
 ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
   
 
-### ⚙️ Backend & Tools
+### Backend & Tools
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
@@ -86,7 +85,7 @@ me.say_hi()
 ![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
  
-### 🚀 DevOps & Cloud
+### DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -98,12 +97,19 @@ me.say_hi()
 
 ## 📊 GitHub Stats
  
+<!-- Using github-profile-summary-cards — zero setup, no token needed, very reliable -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anujakhatri&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anujakhatri&theme=tokyonight" alt="Stats"/>
+  &nbsp;
   <img width="49%" src="https://streak-stats.demolab.com/?user=anujakhatri&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anujakhatri&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages"/>
+  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anujakhatri&theme=tokyonight" alt="Profile Summary"/>
+</p>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anujakhatri&theme=tokyonight" alt="Repos Per Language"/>
+  &nbsp;
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anujakhatri&theme=tokyonight" alt="Most Commit Language"/>
 </p>
 
 ---
