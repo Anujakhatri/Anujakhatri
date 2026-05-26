@@ -1,6 +1,7 @@
 <div align="center">
 <!-- Animated Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Anuja%20Khatri&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Backend%20Systems%20%7C%20AI-Powered%20Applications&descAlignY=51&descAlign=50&descSize=16"/>
+  
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+%F0%9F%9A%80;Backend+Systems+Explorer+%F0%9F%94%AC;AI-Powered+App+Builder+%F0%9F%A4%96;Lifelong+Learner+%F0%9F%93%9A;Building+Reliable+Software+%E2%9C%A8" alt="Typing SVG" />
@@ -37,16 +38,30 @@ me.say_hi()
 - Love Reading? : https://medium.com/@anuja-kc
 
 ## 🌐 Connect With Me
-<div align="center">
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anuja-khatri/)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anuja-kc)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/anujakc7)
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/anuuu_01)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/anuja.kc_/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khatrianuja20@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://anujakhatri.github.io/)
- 
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/anuja-khatri/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://medium.com/@anuja-kc" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+  </a>
+  <a href="https://x.com/anujakc7" target="_blank">
+    <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"/>
+  </a>
+  <a href="https://discord.gg/anuuu_01" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <a href="https://www.instagram.com/anuja.kc_/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:khatrianuja20@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://anujakhatri.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
+
 ---
 
 # 💻 Tech Stack:
@@ -83,33 +98,33 @@ me.say_hi()
 
 ## 📊 GitHub Stats
  
-<div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anujakhatri&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=anujakhatri&theme=tokyonight&hide_border=true" />
-<br/>
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anujakhatri&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-</div>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anujakhatri&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com/?user=anujakhatri&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</p>
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anujakhatri&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages"/>
+</p>
 
 ---
 
 ## 📈 Contribution Graph
  
-<div align="center">
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anujakhatri&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
- 
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anujakhatri&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+</p>
 
 ---
 
 ## 🐍 Contribution Snake
  
-<div align="center">
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/output/github-contribution-grid-snake.svg"/>
   <img alt="github-snake" src="https://raw.githubusercontent.com/anujakhatri/anujakhatri/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-</div>
+</p>
 
 ---
 <!-- Footer Wave -->
