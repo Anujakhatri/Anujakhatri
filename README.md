@@ -1,10 +1,10 @@
 <div align="center">
 <!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Anuja%20Khatri&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Backend%20Systems%20%7C%20AI-Powered%20Applications&descAlignY=51&descAlign=50&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Anuja%20Khatri&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20%20Stack%20%Engineer%20%7C%20AI-Powered%20Applications&descAlignY=51&descAlign=50&descSize=16"/>
   
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB;Backend+Systems+Explorer+%F0%9F%94%AC;AI-Powered+App+Builder+%F0%9F%A4%96;Lifelong+Learner+%F0%9F%93%9A;Building+Reliable+Software+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Full++Stack+Engineer+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB;AI-Powered+App+Builder+%F0%9F%A4%96;Lifelong+Learner+%F0%9F%93%9A;Building+Reliable+Software+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -18,8 +18,8 @@
 class AnujaKhatri:
     def __init__(self):
         self.name        = "Anuja Khatri"
-        self.role        = "Software Engineer"
-        self.focus       = ["Backend Systems", "AI-Powered Applications"]
+        self.role        = "Full Stack Engineer"
+        self.focus       = ["AI-Powered Applications"]
         self.email       = "khatrianuja20@gmail.com"
         self.portfolio   = "https://anujakhatri.github.io/"
         self.blog        = "https://medium.com/@anuja-kc"
@@ -38,7 +38,7 @@ me.say_hi()
 
 ## 🌐 Connect With Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/anuja-khatri/" target="_blank">
+  <a href="https://www.linkedin.com/in/Anuja-khatri/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://medium.com/@anuja-kc" target="_blank">
