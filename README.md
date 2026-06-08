@@ -110,20 +110,9 @@ me.say_hi()
   <img width="49%" src="https://streak-stats.demolab.com/?user=anujakhatri&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 <p align="center">
-  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anujakhatri&theme=tokyonight" alt="Profile Summary"/>
-</p>
-<p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anujakhatri&theme=tokyonight" alt="Repos Per Language"/>
   &nbsp;
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anujakhatri&theme=tokyonight" alt="Most Commit Language"/>
-</p>
-
----
-
-## 📈 Contribution Graph
- 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anujakhatri&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
 </p>
 
 ---
