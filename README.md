@@ -101,22 +101,6 @@ me.say_hi()
 
 ---
 
-## 📊 GitHub Stats
- 
-<!-- Using github-profile-summary-cards — zero setup, no token needed, very reliable -->
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anujakhatri&theme=tokyonight" alt="Stats"/>
-  &nbsp;
-  <img width="49%" src="https://streak-stats.demolab.com/?user=anujakhatri&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anujakhatri&theme=tokyonight" alt="Repos Per Language"/>
-  &nbsp;
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anujakhatri&theme=tokyonight" alt="Most Commit Language"/>
-</p>
-
----
-
 ## 🐍 Contribution Snake
  
 <p align="center">
