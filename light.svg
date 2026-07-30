@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="580" viewBox="0 0 1180 580" font-size="15px">
 <style>
 @font-face {
@@ -15,21 +15,21 @@ size-adjust: 109%;
 .cc       { fill: #6e7781; }
 text, tspan {white-space: pre;}
 </style>
-<rect width="1180px" height="580px" fill="#f6f8fa" rx="15" />
-<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#0969da">· 1,695 profile views</text>
+<rect width="1180px" height="580px" fill="#f6f8fa" rx="15"/>
+<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#0969da">· 1,702 profile views</text>
 <g transform="translate(22,20) scale(0.42,0.88)">
 <text x="0" y="0" fill="#000000" class="ascii">
-<tspan x="-10" y="-30" />
-<tspan x="-10" y="-21" />
-<tspan x="-10" y="-12" />
-<tspan x="-10" y="-3" />
-<tspan x="-10" y="6" />
-<tspan x="-10" y="15" />
-<tspan x="-10" y="24" />
-<tspan x="-10" y="33" />
-<tspan x="-10" y="42" />
-<tspan x="-10" y="51" />
-<tspan x="-10" y="60" />
+<tspan x="-10" y="-30"/>
+<tspan x="-10" y="-21"/>
+<tspan x="-10" y="-12"/>
+<tspan x="-10" y="-3"/>
+<tspan x="-10" y="6"/>
+<tspan x="-10" y="15"/>
+<tspan x="-10" y="24"/>
+<tspan x="-10" y="33"/>
+<tspan x="-10" y="42"/>
+<tspan x="-10" y="51"/>
+<tspan x="-10" y="60"/>
 <tspan x="-10" y="69">                                                                     ^;!&gt;_~!:.</tspan>
 <tspan x="-10" y="78">                                                                 "_1){]_~~-]}[+?-!`</tspan>
 <tspan x="-10" y="87">                                                              .,~}}{{-+~?(({I+_1jx\?I</tspan>
@@ -95,8 +95,8 @@ text, tspan {white-space: pre;}
 <tspan x="520" y="350" class="cc">. </tspan><tspan x="540" y="350" class="key">Grid.LinkedIn</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">linkedin.com/in/anuja-khatri</tspan>
 <tspan x="520" y="370" class="cc">. </tspan><tspan x="540" y="370" class="key">Grid.Github</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">github.com/Anujakhatri</tspan>
 <tspan x="540" y="410" fill="#cf222e">- GitHub Stats</tspan> ----------------------------------------------------------
-<tspan x="520" y="430" class="cc">. </tspan><tspan x="540" y="430" class="key">Repos</tspan>:<tspan x="594" y="430" class="cc"> ......... </tspan><tspan id="repos_value" x="657" y="430" class="value">    17</tspan><tspan x="675" y="430" class="cc"> </tspan>
+<tspan x="520" y="430" class="cc">. </tspan><tspan x="540" y="430" class="key">Repos</tspan>:<tspan x="594" y="430" class="cc"> ......... </tspan><tspan id="repos_value" x="657" y="430" class="value">    27</tspan><tspan x="675" y="430" class="cc"> </tspan>
 <tspan x="520" y="450" class="cc">. </tspan><tspan x="540" y="450" class="key">Followers</tspan>:<tspan class="cc">.......</tspan><tspan id="followers_value" class="value">15</tspan>
-<tspan x="520" y="470" class="cc">. </tspan><tspan x="540" y="470" class="key">Starred</tspan>:<tspan x="603" y="470" class="cc"> ......... </tspan><tspan id="starred_value" x="666" y="470" class="value">     0</tspan><tspan x="702" y="470" class="cc">  |  </tspan><tspan x="747" y="470" class="key">Commits</tspan>:<tspan x="810" y="470" class="cc"> ........ </tspan><tspan id="commits_value" x="873" y="470" class="value">0</tspan>
-<tspan x="520" y="490" class="cc">. </tspan><tspan x="540" y="490" class="key">Code Lines</tspan>:<tspan x="621" y="490" class="cc"> ......... </tspan><tspan id="code_lines_value" x="684" y="490" class="value">0</tspan></text>
+<tspan x="520" y="470" class="cc">. </tspan><tspan x="540" y="470" class="key">Starred</tspan>:<tspan x="603" y="470" class="cc"> ......... </tspan><tspan id="starred_value" x="666" y="470" class="value">    25</tspan><tspan x="702" y="470" class="cc">  |  </tspan><tspan x="747" y="470" class="key">Commits</tspan>:<tspan x="810" y="470" class="cc"> ........ </tspan><tspan id="commits_value" x="873" y="470" class="value">  1034</tspan>
+<tspan x="520" y="490" class="cc">. </tspan><tspan x="540" y="490" class="key">Code Lines</tspan>:<tspan x="621" y="490" class="cc"> ......... </tspan><tspan id="code_lines_value" x="684" y="490" class="value">5340626</tspan></text>
 </svg>
