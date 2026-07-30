@@ -1,21 +1,8 @@
-<div align="center">
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Anuja%20Khatri&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20%20Stack%20Engineer%20%7C%20AI-Powered%20Applications&descAlignY=51&descAlign=50&descSize=16"/>
-
-<br/>
-
-<!-- Profile Card (light/dark) — Profile Views badge overlaid at top-left -->
-<div align="center" style="position: relative; display: inline-block;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
-    <img alt="Anuja Khatri — GitHub Profile Card" src="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
-  </picture>
-  <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat"
-       alt="Profile Views"
-       style="position: absolute; top: 14px; left: 22px;" />
-</div>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
+  <img alt="Anuja Khatri — GitHub Profile Card" src="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
+</picture>
 
 ---
 
