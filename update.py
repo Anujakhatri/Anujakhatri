@@ -20,7 +20,6 @@ QUERY_COUNT = {
     "commit_loc_getter": 0,
 }
 
-# Per-repo cache mirrors KARTHIK1749 layout. 7 comment lines + 1 row per repo.
 COMMENT_SIZE = 7
 CACHE_FILENAME = CACHE_DIR / (
     hashlib.sha256(USER_NAME.encode("utf-8")).hexdigest() + ".txt"
@@ -182,10 +181,6 @@ def _write_cache(lines):
 
 
 def refresh_cache_files():
-    """
-    No-op for now. Placeholder for future per-repo cache population.
-    Schema is kept identical to KARTHIK1749/update.py cache_builder().
-    """
     _read_cache()  # touch the file to confirm it exists
     return None
 
