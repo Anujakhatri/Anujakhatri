@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="530" viewBox="0 0 1180 530" font-size="15px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key      { fill: #0969da; }
+.value    { fill: #24292f; }
+.addColor { fill: #1a7f37; }
+.delColor { fill: #cf222e; }
+.cc       { fill: #6e7781; }
+text, tspan {white-space: pre;}
+</style>
+<rect width="1180px" height="530px" fill="#f6f8fa" rx="15"/>
+<g transform="translate(22,20) scale(0.42,0.88)">
+<text x="0" y="0" fill="#000000" class="ascii">
+<tspan x="-10" y="-30"></tspan>
+<tspan x="-10" y="-21"></tspan>
+<tspan x="-10" y="-12"></tspan>
+<tspan x="-10" y="-3"></tspan>
+<tspan x="-10" y="6"></tspan>
+<tspan x="-10" y="15"></tspan>
+<tspan x="-10" y="24"></tspan>
+<tspan x="-10" y="33"></tspan>
+<tspan x="-10" y="42"></tspan>
+<tspan x="-10" y="51"></tspan>
+<tspan x="-10" y="60"></tspan>
+<tspan x="-10" y="69">                                                                     ^;!&gt;_~!:.</tspan>
+<tspan x="-10" y="78">                                                                 &quot;_1){]_~~-]}[+?-!`</tspan>
+<tspan x="-10" y="87">                                                              .,~}}{{-+~?(({I+_1jx\?I</tspan>
+<tspan x="-10" y="96">                                                             :&gt;I^^?zdM%B$m&lt;??-?(rv/\(+&#x27;</tspan>
+<tspan x="-10" y="105">                                                           .::&#x27;Ijb@$$$$$@qcf(-{1fnt{{--`</tspan>
+<tspan x="-10" y="114">                                                          .:^,jM$$$$$$$@%hU{_}{|({]!&lt;!!i</tspan>
+<tspan x="-10" y="123">                                                          ,  jkwM@@$$$@$%an`-1](}_&lt;; ^`l^</tspan>
+<tspan x="-10" y="132">                                                         ^ &lt;\YX\L$@Mowb#*W].}~l(]~!, .&#x27;^:</tspan>
+<tspan x="-10" y="141">                                                        ` r$$8W8%$BhCwrjLO`^~`.-[!`.  ..I</tspan>
+<tspan x="-10" y="150">                                                       ^.&lt;%#aM$$$$$$W*0rxX^&#x27;&quot;. .~I      i,</tspan>
+<tspan x="-10" y="159">                                                       &quot;.j*wa*hpd##&amp;$$$$$q&lt; &#x27;   ^I  .. .:I</tspan>
+<tspan x="-10" y="168">                                                       ^&quot;L$b\hmQOdB%MW%%*U_ &#x27;    `.&#x27;,.. l-&#x27;</tspan>
+<tspan x="-10" y="177">                                                       ^&gt;t@8b#&amp;MbQfJqqbqZc_;^&gt;&quot;    ^l&#x27;&#x27; :?&#x27;</tspan>
+<tspan x="-10" y="186">                                                       &quot;&gt;.M$B#o#M&amp;ak88MM*u?:]u/^   &#x27;;!: .&gt;&#x27;</tspan>
+<tspan x="-10" y="195">                                                       ;, n%$$$$$BB@WhmJ(:^ &quot;&lt;!`&quot;.&#x27;&quot; -!  !`</tspan>
+<tspan x="-10" y="204">                                                      `;.. ~f00Cx/|1}~,.    &#x27;`.`-;&lt;^ iI. ;I.</tspan>
+<tspan x="-10" y="213">                                                      .l     f)il!I;:  ..      &quot;&gt;_i.^`.`.l-I</tspan>
+<tspan x="-10" y="222">                                                       !I   &quot;Xunun\?i,II^.     `l;.&quot;^   .l{^</tspan>
+<tspan x="-10" y="231">                                                       ._^.&quot;^bqv)_.  ^,::^  . .&#x27;..``.     &lt;;</tspan>
+<tspan x="-10" y="240">                                                        iIIl,qwQ0UXu)j_.  ,`  . ^&#x27;.&#x27;.     I&gt;</tspan>
+<tspan x="-10" y="249">                                                     &#x27;i_+-|rq88aqdhMB$@d&lt;-[|~^&#x27;:,.^&quot;`.     ~`</tspan>
+<tspan x="-10" y="258">                                                    &lt;{[&lt;tL#dhpv0*W*hbwqBXwh)xj!.^;I!:^     {&gt;</tspan>
+<tspan x="-10" y="267">                                                   i({[LMkZ0qp8$%&amp;M*aWqXYb8Of/f&quot;&#x27;^;!I,^    !].</tspan>
+<tspan x="-10" y="276">                                                 . ,jXM$0JWW#khbkkhdQ0mkqOQm*cn(   &quot;,!!,  :}]&lt;</tspan>
+<tspan x="-10" y="285">                                                  ^vo&amp;8Wa8*m0dM%@@@88ZjQ8*qwoZn~.&#x27; ,i!il, -Xn-,</tspan>
+<tspan x="-10" y="294">                                                .t*$M#*dkkko@$$$@@B8%wWmZB*#af_:c`&#x27;`;:&lt;I&gt;&#x27;,~++`</tspan>
+<tspan x="-10" y="303">                                               ]k$@&amp;#hhoMB@@B%%B%%8BBm%$p08*h/[]01&#x27;.&#x27;`;!_,^^ II</tspan>
+<tspan x="-10" y="312">                                             ~w$$8Mko%%MW#W%%%B%B8&amp;%BoWBBZb8Uczo?vi `&#x27;.l&gt;;^},:&lt;</tspan>
+<tspan x="-10" y="321">                                           .c$$$8M&amp;B&amp;***888W%BB@B%%8%&amp;h&amp;8MJhMtC$Xup.`..Ii&quot;`:~+</tspan>
+<tspan x="-10" y="330">                                          Ib$$@@#o#kpM%$$BBB@@@@%%%8%@%MMW%UwxZqhmwl `^:il,rU,</tspan>
+<tspan x="-10" y="339">                                         ;#$8o&amp;W#bqoW&amp;%88&amp;8%@@$%8%B@$%WB8M#Z;XMq#wri &quot;I&quot;I&lt;\Ln`</tspan>
+<tspan x="-10" y="348">                                         0B@8M%W**W&amp;WW&amp;&amp;W8$$$$BMW%%B8%&amp;#%W*c-fq#odq/`,,`;&quot;YX;</tspan>
+<tspan x="-10" y="357">                                        l@M&amp;@8WM*hhkh#8@$$@$$@W*&amp;&amp;B%8W#8@&amp;d/hJJ%%MwjI^`&quot;,,t&quot;</tspan>
+<tspan x="-10" y="366">                                      . ($8WMoakqaW%@@$$@@B@%8#W88888BMkh@kX*qcoYr||]&quot;!.iv?.</tspan>
+<tspan x="-10" y="375">                                        Q$M*#MMWM#8%&amp;88%B8%B%&amp;WW8W*#&amp;%$WOm$%Yd\JUuvYni;(x.</tspan>
+<tspan x="-10" y="384">                                        hBo**kbdbkbhhM%&amp;&amp;W88&amp;8Mo##kdho8@%hZ&amp;WOv/Ma0hJvZdj .</tspan>
+<tspan x="-10" y="393">                                       f&amp;pOqpqdbo&amp;&amp;@@%8*M*h*odooakkakOd8$@o0W*U|b*o#M8W&amp;f</tspan>
+<tspan x="-10" y="402">                                    . [Wdk8@8&amp;&amp;&amp;%B%WhbdbW#MWobQwkahdpqmd*@$#Xoh)zMB8%&amp;M%b</tspan>
+<tspan x="-10" y="411">                                  .. ^*B@%%%BB@$%WMa*M8B%#addwdkqqphhwOmp*@@*c*C_h%&amp;&amp;%8k@~</tspan>
+<tspan x="-10" y="420">                               .    Im@@$$@BB8apwd*M8@$WOvXYXvxJZkbqwqqZQqM@%qvM}U@&amp;M8BZbj .</tspan>
+<tspan x="-10" y="429">                                 ~rOB$$$$$$$@B%MhhhdqXrc0dhqwkwOdwwwdmmdqmpM%%JrO/%&amp;o&amp;@adt</tspan>
+<tspan x="-10" y="438">                            &quot;l~jk$$$$$$$$$@$$$$$$$$#j&lt;I!1vXqMWoqaWhqdhokZZdqo8&amp;YvvwBW#8B$(</tspan>
+<tspan x="-10" y="447">                          1q#%@$$$@$$$$$$$$$$$$@8dxuXj}1\rxnUZdLk&amp;8WMkp*#bwqpkB8vYL&amp;8hM8B?</tspan>
+</text>
+</g>
+<text x="500" y="30" fill="#24292f">
+<tspan x="540" y="30" fill="#0969da" font-size="17px">Anuu@Top-grid</tspan> ——————————————————————
+<tspan x="520" y="50" class="cc">. </tspan><tspan x="540" y="50" class="key">Identity</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Anuja Khatri</tspan>
+<tspan x="520" y="70" class="cc">. </tspan><tspan x="540" y="70" class="key">Role</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Full Stack Developer</tspan>
+<tspan x="520" y="90" class="cc">. </tspan><tspan x="540" y="90" class="key">Origin</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Kathmandu, Nepal</tspan>
+<tspan x="520" y="110" class="cc">. </tspan><tspan x="540" y="110" class="key">Theme</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Building • Shipping • Iterating</tspan>
+<tspan x="520" y="130" class="cc">. </tspan><tspan x="540" y="130" class="key">ToolChain</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">VS Code, PyCharm, Git, Docker, Postman</tspan>
+<tspan x="520" y="150" class="cc">. </tspan>
+<tspan x="520" y="170" class="cc">. </tspan><tspan x="540" y="170" class="key">Main.Core</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, Django, DRF, FastAPI, Flask</tspan>
+<tspan x="520" y="190" class="cc">. </tspan><tspan x="540" y="190" class="key">Main.AI</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">LLM APIs, XGBoost, Scikit-learn, Pydantic</tspan>
+<tspan x="520" y="210" class="cc">. </tspan><tspan x="540" y="210" class="key">Main.Frontend</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">React, TypeScript, JS, Tailwind, Bootstrap</tspan>
+<tspan x="520" y="230" class="cc">. </tspan><tspan x="540" y="230" class="key">Main.Backend</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">DRF, Node.js, Express.js, PostgreSQL, ML</tspan>
+<tspan x="520" y="250" class="cc">. </tspan><tspan x="540" y="250" class="key">Main.Stack</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">JWT/RBAC, Docker, CI/CD, Celery, Pytest</tspan>
+<tspan x="520" y="270" class="cc">. </tspan>
+<tspan x="540" y="290" fill="#cf222e">- Contact</tspan> ———————————————————————————————————————————————————
+<tspan x="520" y="310" class="cc">. </tspan><tspan x="540" y="310" class="key">Grid.Mail</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">khatrianuja20@gmail.com</tspan>
+<tspan x="520" y="330" class="cc">. </tspan><tspan x="540" y="330" class="key">Grid.Portfolio</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">anujakhatri.github.io</tspan>
+<tspan x="520" y="350" class="cc">. </tspan><tspan x="540" y="350" class="key">Grid.LinkedIn</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Anuja-khatri</tspan>
+<tspan x="520" y="370" class="cc">. </tspan><tspan x="540" y="370" class="key">Grid.Github</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">anujakhatri</tspan>
+<tspan x="540" y="410" fill="#cf222e">- GitHub Stats</tspan> ———————————————————————————————————————————————————
+<tspan x="520" y="430" class="cc">. </tspan><tspan x="540" y="430" class="key">Repos</tspan>:<tspan x="594" y="430" class="cc"> ......... </tspan><tspan x="657" y="430" class="value">    17</tspan><tspan x="675" y="430" class="cc"> </tspan>
+<tspan x="520" y="450" class="cc">. </tspan><tspan x="540" y="450" class="key">Followers</tspan>:<tspan class="cc">...... </tspan><tspan class="value">15</tspan></text>
+</svg>
