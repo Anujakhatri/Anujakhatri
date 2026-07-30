@@ -17,6 +17,7 @@ QUERY_COUNT = {
     "follower_getter": 0,
     "graph_repos_stars": 0,
     "starred_getter": 0,
+    "commit_loc_getter": 0,
 }
 
 # Per-repo cache mirrors KARTHIK1749 layout. 7 comment lines + 1 row per repo.
@@ -94,6 +95,12 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
             for edge in (data["edges"] or [])
             if edge and edge.get("node")
         )
+    if count_type == "repo_list":
+        return [
+            edge["node"]["nameWithOwner"]
+            for edge in (data.get("edges") or [])
+            if edge and edge.get("node")
+        ]
     raise ValueError(f"unknown count_type: {count_type!r}")
 
 
@@ -107,6 +114,33 @@ def follower_getter(username):
         follower_getter.__name__, query, {"login": username}
     )
     return int(request.json()["data"]["user"]["followers"]["totalCount"])
+
+
+def commit_loc_getter(repo_list, username):
+    """Total commits and additions (code lines) across given repos."""
+    total_commits = 0
+    total_additions = 0
+    
+    for repo in repo_list:
+        url = f"https://api.github.com/repos/{repo}/stats/contributors"
+        # The GitHub API may return 202 Accepted if stats are compiling. We retry up to 3 times.
+        for attempt in range(3):
+            query_count("commit_loc_getter")
+            req = requests.get(url, headers=HEADERS)
+            if req.status_code == 200:
+                stats = req.json()
+                for contributor in stats:
+                    if contributor.get("author") and contributor["author"]["login"].lower() == username.lower():
+                        total_commits += contributor.get("total", 0)
+                        for week in contributor.get("weeks", []):
+                            total_additions += week.get("a", 0)
+                break
+            elif req.status_code == 202:
+                time.sleep(1)
+            else:
+                break
+                
+    return total_commits, total_additions
 
 
 def starred_getter(username):
@@ -179,18 +213,29 @@ if __name__ == "__main__":
     starred, starred_time = perf_counter(starred_getter, USER_NAME)
     formatter("starred", starred_time)
 
+    repo_list, repo_list_time = perf_counter(
+        graph_repos_stars, "repo_list", ["OWNER"]
+    )
+    formatter("repo_list", repo_list_time)
+
+    (commits, code_lines), commit_time = perf_counter(commit_loc_getter, repo_list, USER_NAME)
+    formatter("commits_loc", commit_time)
+
     stats = {
         "repos": int(repos),
         "stars": int(stars),
         "followers": int(followers),
         "starred": int(starred),
+        "commits": int(commits),
+        "code_lines": int(code_lines),
         "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
     }
     STATS_FILE.write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
     print(
         f"Wrote {STATS_FILE}: repos={stats['repos']} "
         f"stars={stats['stars']} followers={stats['followers']} "
-        f"starred={stats['starred']}"
+        f"starred={stats['starred']} commits={stats['commits']} "
+        f"code_lines={stats['code_lines']}"
     )
 
     refresh_cache_files()
