@@ -65,7 +65,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     query = """
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 100, after: $cursor, ownerAffiliations: $owner_affiliation) {
+            repositories(first: 100, after: $cursor, ownerAffiliations: $owner_affiliation, privacy: PUBLIC) {
                 totalCount
                 edges {
                     node {
@@ -116,9 +116,10 @@ def follower_getter(username):
 
 
 def commit_loc_getter(repo_list, username):
-    """Total commits and additions (code lines) across given repos."""
+    """Total commits, additions, and deletions across given repos."""
     total_commits = 0
     total_additions = 0
+    total_deletions = 0
     
     for repo in repo_list:
         url = f"https://api.github.com/repos/{repo}/stats/contributors"
@@ -128,18 +129,20 @@ def commit_loc_getter(repo_list, username):
             req = requests.get(url, headers=HEADERS)
             if req.status_code == 200:
                 stats = req.json()
-                for contributor in stats:
-                    if contributor.get("author") and contributor["author"]["login"].lower() == username.lower():
-                        total_commits += contributor.get("total", 0)
-                        for week in contributor.get("weeks", []):
-                            total_additions += week.get("a", 0)
+                if isinstance(stats, list):
+                    for contributor in stats:
+                        if contributor.get("author") and contributor["author"]["login"].lower() == username.lower():
+                            total_commits += contributor.get("total", 0)
+                            for week in contributor.get("weeks", []):
+                                total_additions += week.get("a", 0)
+                                total_deletions += week.get("d", 0)
                 break
             elif req.status_code == 202:
                 time.sleep(1)
             else:
                 break
                 
-    return total_commits, total_additions
+    return total_commits, total_additions, total_deletions
 
 
 def starred_getter(username):
@@ -161,7 +164,11 @@ def user_getter(username):
     query_count("user_getter")
     query = """
     query($login: String!){
-        user(login: $login) { id createdAt }
+        user(login: $login) { 
+            id 
+            createdAt 
+            repositoriesContributedTo(first: 1) { totalCount }
+        }
     }"""
     request = simple_request(
         user_getter.__name__, query, {"login": username}
@@ -213,24 +220,26 @@ if __name__ == "__main__":
     )
     formatter("repo_list", repo_list_time)
 
-    (commits, code_lines), commit_time = perf_counter(commit_loc_getter, repo_list, USER_NAME)
+    (commits, additions, deletions), commit_time = perf_counter(commit_loc_getter, repo_list, USER_NAME)
     formatter("commits_loc", commit_time)
 
     stats = {
         "repos": int(repos),
+        "contributed": int(user_data.get("repositoriesContributedTo", {}).get("totalCount", 0)),
         "stars": int(stars),
         "followers": int(followers),
         "starred": int(starred),
         "commits": int(commits),
-        "code_lines": int(code_lines),
+        "additions": int(additions),
+        "deletions": int(deletions),
         "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
     }
     STATS_FILE.write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
     print(
-        f"Wrote {STATS_FILE}: repos={stats['repos']} "
+        f"Wrote {STATS_FILE}: repos={stats['repos']} contributed={stats['contributed']} "
         f"stars={stats['stars']} followers={stats['followers']} "
         f"starred={stats['starred']} commits={stats['commits']} "
-        f"code_lines={stats['code_lines']}"
+        f"additions={stats['additions']} deletions={stats['deletions']}"
     )
 
     refresh_cache_files()

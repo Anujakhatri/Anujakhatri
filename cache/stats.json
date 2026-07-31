@@ -1,9 +1,11 @@
 {
-  "repos": 27,
+  "repos": 17,
+  "contributed": 29,
   "stars": 4,
   "followers": 15,
   "starred": 25,
   "commits": 1114,
-  "code_lines": 5347333,
+  "additions": 5349850,
+  "deletions": 2517,
   "fetched_at": "2026-07-31T06:49:30.520445Z"
 }
