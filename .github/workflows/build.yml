@@ -1,7 +1,10 @@
 name: README build
 
-permissions: 
+permissions:
    contents: write
+concurrency:
+  group: readme-build
+  cancel-in-progress: false
 on:
   push:
     branches:
@@ -15,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persistent-credentials: true
+          persist-credentials: true
           fetch-depth: 1
       - name: Get Python 3.10
         uses: actions/setup-python@v5
