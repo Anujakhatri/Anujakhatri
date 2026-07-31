@@ -12,7 +12,16 @@ SVG_NS = "http://www.w3.org/2000/svg"
 STATS_FILE = REPO / "cache" / "stats.json"
 
 # Live stats come from cache/stats.json (written by update.py in CI).
-DEFAULT_STATS = {"repos": 17, "stars": 4, "followers": 15, "starred": 0, "commits": 0, "code_lines": 0}
+DEFAULT_STATS = {
+    "repos": 17,
+    "contributed": 0,
+    "stars": 4,
+    "followers": 15,
+    "starred": 0,
+    "commits": 0,
+    "additions": 0,
+    "deletions": 0,
+}
 
 
 def load_stats() -> dict:
@@ -21,12 +30,14 @@ def load_stats() -> dict:
     try:
         data = json.loads(STATS_FILE.read_text(encoding="utf-8"))
         return {
-            "repos":     int(data.get("repos",     DEFAULT_STATS["repos"])),
-            "stars":     int(data.get("stars",     DEFAULT_STATS["stars"])),
-            "followers": int(data.get("followers", DEFAULT_STATS["followers"])),
-            "starred":   int(data.get("starred",   DEFAULT_STATS["starred"])),
-            "commits":   int(data.get("commits",   DEFAULT_STATS["commits"])),
-            "code_lines": int(data.get("code_lines", DEFAULT_STATS["code_lines"])),
+            "repos":       int(data.get("repos",       DEFAULT_STATS["repos"])),
+            "contributed": int(data.get("contributed", DEFAULT_STATS["contributed"])),
+            "stars":       int(data.get("stars",       DEFAULT_STATS["stars"])),
+            "followers":   int(data.get("followers",   DEFAULT_STATS["followers"])),
+            "starred":     int(data.get("starred",     DEFAULT_STATS["starred"])),
+            "commits":     int(data.get("commits",     DEFAULT_STATS["commits"])),
+            "additions":   int(data.get("additions",   DEFAULT_STATS["additions"])),
+            "deletions":   int(data.get("deletions",   DEFAULT_STATS["deletions"])),
         }
     except (json.JSONDecodeError, KeyError, ValueError):
         return dict(DEFAULT_STATS)
@@ -90,12 +101,15 @@ def fetch_profile_views() -> str:
 
 
 PADDED_WIDTHS = {
-    "repos_value":       6,    # "    17" -> 4 leading spaces + 2 digits
-    "followers_value":   0,    # "15" - no pad in current SVG
-    "starred_value":     6,    # "     0" -> 5 leading spaces + 1 digit, matches repos visual width
-    "commits_value":     6,
-    "code_lines_value":  6,
-    "profile_views_text": 0,   # full badge string; no padding needed
+    "repos_value":       0,
+    "contributed_value": 0,
+    "starred_value":     0,
+    "commits_value":     0,
+    "followers_value":   0,
+    "code_lines_value":  0,
+    "additions_value":   0,
+    "deletions_value":   0,
+    "profile_views_text": 0,
 }
 
 
@@ -154,11 +168,14 @@ def main():
     print(f"Profile views: {profile_views}")
 
     value_map = {
-        "repos_value":     STATS["repos"],
-        "followers_value": STATS["followers"],
-        "starred_value":   STATS["starred"],
-        "commits_value":   STATS["commits"],
-        "code_lines_value": STATS["code_lines"],
+        "repos_value":       STATS["repos"],
+        "contributed_value": STATS["contributed"],
+        "starred_value":     STATS["starred"],
+        "commits_value":     STATS["commits"],
+        "followers_value":   STATS["followers"],
+        "code_lines_value":  f"{STATS['additions'] - STATS['deletions']:,}",
+        "additions_value":   f"{STATS['additions']:,}",
+        "deletions_value":   f"{STATS['deletions']:,}",
         "profile_views_text": f"· {profile_views} profile views",
     }
 
