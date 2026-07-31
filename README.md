@@ -1,12 +1,8 @@
-<div style="position: relative;">
-  <img src="https://komarev.com/ghpvc/?username=anujakhatri&label=Profile%20views&color=0e75b6&style=flat"
-       style="position: absolute; top: 8px; left: 8px; z-index: 1;" />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
-    <img alt="profile card" src="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
+  <img alt="Anuja Khatri — GitHub Profile Card" src="https://raw.githubusercontent.com/anujakhatri/anujakhatri/main/light.svg">
+</picture>
 
 ---
 
