@@ -16,7 +16,7 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 </style>
 <rect width="1180px" height="580px" fill="black" rx="15"/>
-<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#5EEAD4">· 1,711 profile views</text>
+<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#5EEAD4">· 1,714 profile views</text>
 <g transform="translate(34,52) scale(0.40,0.84)">
 <text x="0" y="0" fill="#7DF9FF" class="ascii">
 <tspan x="-10" y="-30"/>
