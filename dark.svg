@@ -80,7 +80,7 @@ text, tspan {white-space: pre;}
 <tspan x="520" y="50" class="cc">. </tspan><tspan x="540" y="50" class="key">Identity</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Anuja Khatri</tspan>
 <tspan x="520" y="70" class="cc">. </tspan><tspan x="540" y="70" class="key">Role</tspan>:<tspan class="cc">   ............ </tspan><tspan class="value">Full Stack Developer</tspan>
 <tspan x="520" y="90" class="cc">. </tspan><tspan x="540" y="90" class="key">Origin</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Kathmandu, Nepal</tspan>
-<tspan x="520" y="110" class="cc">. </tspan><tspan x="540" y="110" class="key">Theme</tspan>:<tspan class="cc">  ............ </tspan><tspan class="value">Building • Shipping • Iterating</tspan>
+<tspan x="520" y="110" class="cc">. </tspan><tspan x="540" y="110" class="key">Theme</tspan>:<tspan class="cc">  ............ </tspan><tspan class="value">Building • Shipping • Learning</tspan>
 <tspan x="520" y="130" class="cc">. </tspan><tspan x="540" y="130" class="key">ToolChain</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">VS Code, Git, GitHub, Docker, Postman</tspan>
 <tspan x="520" y="150" class="cc">. </tspan>
 <tspan x="520" y="170" class="cc">. </tspan><tspan x="540" y="170" class="key">Main.Core</tspan>:<tspan class="cc"> ........  </tspan><tspan class="value">Python, Django, DRF, FastAPI, Flask</tspan>
