@@ -6,7 +6,7 @@
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Connect With Me <p align="center"><sub>![](https://komarev.com/ghpvc/?username=anujakhatri&style=flat-square&color=blue)</sub></p>
 <p align="center">
   <a href="https://www.linkedin.com/in/Anuja-khatri/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
