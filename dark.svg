@@ -16,7 +16,7 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 </style>
 <rect width="1180px" height="580px" fill="black" rx="15"/>
-<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#0969da">· 1,766 profile views</text>
+<text id="profile_views_text" x="24" y="32" class="key" font-size="11px" fill="#0969da">· 1,823 profile views</text>
 <g transform="translate(34,52) scale(0.40,0.84)">
 <text x="0" y="0" fill="#7DF9FF" class="ascii">
 <tspan x="-10" y="-30"/>
@@ -91,7 +91,7 @@ text, tspan {white-space: pre;}
 <tspan x="520" y="350" class="cc">. </tspan><tspan x="540" y="350" class="key">Grid.LinkedIn</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">linkedin.com/in/anuja-khatri/</tspan>
 <tspan x="520" y="370" class="cc">. </tspan><tspan x="540" y="370" class="key">Grid.Github</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">github.com/Anujakhatri/</tspan>
 <tspan x="540" y="410" fill="#FF5F87">- GitHub Stats</tspan> ———————————————————————————————————————————————————
-<tspan x="520" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan id="repos_value" class="value">19</tspan> {<tspan class="key">Contributed</tspan>: <tspan id="contributed_value" class="value">5</tspan>   }    | <tspan class="key">Starred</tspan>:<tspan class="cc"> .......... </tspan><tspan id="starred_value" class="value">25</tspan>
-<tspan x="520" y="450" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan id="commits_value" class="value">740</tspan>     | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........ </tspan><tspan id="followers_value" class="value">16</tspan>
-<tspan x="520" y="470" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">. </tspan><tspan id="code_lines_value" class="value">153,380</tspan> ( <tspan id="additions_value" class="addColor">5,232,023</tspan><tspan class="addColor">++</tspan>, <tspan class="cc">. </tspan><tspan id="deletions_value" class="delColor">5,078,643</tspan><tspan class="delColor">--</tspan> )</text>
+<tspan x="520" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan id="repos_value" class="value">21</tspan> {<tspan class="key">Contributed</tspan>: <tspan id="contributed_value" class="value">6</tspan>   }    | <tspan class="key">Starred</tspan>:<tspan class="cc"> .......... </tspan><tspan id="starred_value" class="value">26</tspan>
+<tspan x="520" y="450" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan id="commits_value" class="value">748</tspan>     | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........ </tspan><tspan id="followers_value" class="value">16</tspan>
+<tspan x="520" y="470" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">. </tspan><tspan id="code_lines_value" class="value">153,952</tspan> ( <tspan id="additions_value" class="addColor">5,232,610</tspan><tspan class="addColor">++</tspan>, <tspan class="cc">. </tspan><tspan id="deletions_value" class="delColor">5,078,658</tspan><tspan class="delColor">--</tspan> )</text>
 </svg>
