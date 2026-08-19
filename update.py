@@ -83,7 +83,7 @@ def formatter(query_type, difference, whitespace=0):
 
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None):
-    """Return total repo count or total star count across the user's repos."""
+    """Return total repo count or list of the user's repos."""
     query_count("graph_repos_stars")
     query = """
     query ($login: String!, $cursor: String) {
@@ -94,7 +94,6 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
                     node {
                         ... on Repository {
                             nameWithOwner
-                            stargazers { totalCount }
                         }
                     }
                 }
@@ -107,9 +106,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
         "cursor": cursor,
     }
     request = simple_request(graph_repos_stars.__name__, query, variables)
-    response_json = request.json()
-    print(f"DEBUG: GraphQL response = {json.dumps(response_json)}")
-    data = response_json["data"]["user"]["repositories"]
+    data = request.json()["data"]["user"]["repositories"]
     
     owned_edges = [
         edge for edge in (data.get("edges") or [])
@@ -118,11 +115,6 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
 
     if count_type == "repos":
         return len(owned_edges)
-    if count_type == "stars":
-        return sum(
-            (edge["node"].get("stargazers") or {}).get("totalCount", 0)
-            for edge in owned_edges
-        )
     if count_type == "repo_list":
         return [
             edge["node"]["nameWithOwner"]
