@@ -63,9 +63,9 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     """Return total repo count or total star count across the user's repos."""
     query_count("graph_repos_stars")
     query = """
-    query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
+    query ($login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 100, after: $cursor, ownerAffiliations: $owner_affiliation, privacy: PUBLIC) {
+            repositories(first: 100, after: $cursor, privacy: PUBLIC) {
                 totalCount
                 edges {
                     node {
@@ -80,25 +80,28 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
         }
     }"""
     variables = {
-        "owner_affiliation": owner_affiliation,
         "login": USER_NAME,
         "cursor": cursor,
     }
     request = simple_request(graph_repos_stars.__name__, query, variables)
     data = request.json()["data"]["user"]["repositories"]
+    
+    owned_edges = [
+        edge for edge in (data.get("edges") or [])
+        if edge and edge.get("node") and edge["node"]["nameWithOwner"].split("/")[0].lower() == USER_NAME.lower()
+    ]
+
     if count_type == "repos":
-        return data["totalCount"]
+        return len(owned_edges)
     if count_type == "stars":
         return sum(
             (edge["node"].get("stargazers") or {}).get("totalCount", 0)
-            for edge in (data["edges"] or [])
-            if edge and edge.get("node")
+            for edge in owned_edges
         )
     if count_type == "repo_list":
         return [
             edge["node"]["nameWithOwner"]
-            for edge in (data.get("edges") or [])
-            if edge and edge.get("node")
+            for edge in owned_edges
         ]
     raise ValueError(f"unknown count_type: {count_type!r}")
 
@@ -204,11 +207,6 @@ if __name__ == "__main__":
     )
     formatter("repos", repos_time)
 
-    stars, stars_time = perf_counter(
-        graph_repos_stars, "stars", ["OWNER"]
-    )
-    formatter("stars", stars_time)
-
     followers, follower_time = perf_counter(follower_getter, USER_NAME)
     formatter("followers", follower_time)
 
@@ -226,7 +224,7 @@ if __name__ == "__main__":
     stats = {
         "repos": int(repos),
         "contributed": int(user_data.get("repositoriesContributedTo", {}).get("totalCount", 0)),
-        "stars": int(stars),
+        "stars": 0,
         "followers": int(followers),
         "starred": int(starred),
         "commits": int(commits),
