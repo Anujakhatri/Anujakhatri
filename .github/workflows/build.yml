@@ -33,7 +33,7 @@ jobs:
       - name: Update README file
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_NAME: ${{ github.repository_owner }}
         run: |
           python update.py
           python build_dark_light_svgs.py
