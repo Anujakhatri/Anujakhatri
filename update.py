@@ -107,7 +107,9 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
         "cursor": cursor,
     }
     request = simple_request(graph_repos_stars.__name__, query, variables)
-    data = request.json()["data"]["user"]["repositories"]
+    response_json = request.json()
+    print(f"DEBUG: GraphQL response = {json.dumps(response_json)}")
+    data = response_json["data"]["user"]["repositories"]
     
     owned_edges = [
         edge for edge in (data.get("edges") or [])
