@@ -241,6 +241,9 @@ if __name__ == "__main__":
     )
     formatter("repo_list", repo_list_time)
 
+    print(f"DEBUG: USER_NAME is {USER_NAME!r}")
+    print(f"DEBUG: repo_list is {repo_list}")
+
     (commits, additions, deletions), commit_time = perf_counter(commit_loc_getter, repo_list, USER_NAME)
     formatter("commits_loc", commit_time)
 
