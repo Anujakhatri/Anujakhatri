@@ -10,8 +10,31 @@ from dateutil import relativedelta
 
 CACHE_DIR = Path("cache")
 STATS_FILE = CACHE_DIR / "stats.json"
-HEADERS = {"authorization": "token " + os.environ["ACCESS_TOKEN"]}
-USER_NAME = os.environ["USER_NAME"]
+
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "").strip()
+if not ACCESS_TOKEN:
+    raise ValueError("ACCESS_TOKEN environment variable is not set or is empty.")
+
+HEADERS = {"authorization": "token " + ACCESS_TOKEN}
+
+USER_NAME = os.environ.get("USER_NAME", "").strip()
+if not USER_NAME:
+    try:
+        query = "query { viewer { login } }"
+        request = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": query},
+            headers=HEADERS,
+        )
+        if request.status_code == 200:
+            USER_NAME = request.json()["data"]["viewer"]["login"].strip()
+            print(f"Automatically detected USER_NAME from ACCESS_TOKEN: {USER_NAME}")
+    except Exception as e:
+        print(f"Failed to automatically detect USER_NAME: {e}")
+
+if not USER_NAME:
+    raise ValueError("USER_NAME environment variable is not set and could not be auto-detected.")
+
 QUERY_COUNT = {
     "user_getter": 0,
     "follower_getter": 0,
